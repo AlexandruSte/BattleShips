@@ -1,6 +1,6 @@
 # BattleShips
 
-The Game begins with the first player needing to put all the coordinates of his ships.
+At the beginning of the game, the first player needs to put all the coordinates of his ships.
 
 ![](https://image.ibb.co/jSZ8yc/1.png)
 
@@ -8,7 +8,7 @@ Each player is given one ship of size 4, 2 ships of size 3, 3 ships of size 2 an
 
 ![](https://image.ibb.co/nyMMJc/2.png)
 
-If the introduced values are not correct ( if they are bigger or smaller than the actual size of the ship or if they are out of the matrix ) the program will give you more tries to write them correctly.
+If the introduced values are not correct (if they are bigger or smaller than the actual size of the ship or if they are out of the matrix) the program will give you more tries to write them correctly.
 
 After the first player finishes placing his ships, the console clears itself, allowing the second player to place his ships, not seeing where the first one put his.
 
@@ -20,7 +20,7 @@ After the second player places his ships, the game begins!
 
 Now, each player takes turns and try to guess each other's ships. The ships are memorized in a matrix. 
 The players write down a pair of (x,y) and if they hit the other player's ship, on the map will be displayed a red "X", and if not it will be displayed a red circle. 
-If they bomb a place they already have bombed, they receive another guess.
+If they bomb a place they have already bombed, they receive another guess.
 
 ![](https://image.ibb.co/m5LOyc/5.png)
 
